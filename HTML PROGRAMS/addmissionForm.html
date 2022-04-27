@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANDC Admission Form</title>
+</head>
+
+<body>
+
+    <header>
+        <center>
+            <img src="assets/andc.png" alt="andc-logo" width="100px">
+            <h1>Acharya Narendra Dev College</h1>
+            <h2>University of Delhi</h2>
+        </center>
+    </header>
+    <hr>
+    <main>
+
+        <center>
+            <h2><u>Admission Form</u></h2>
+        </center>
+
+        <form action="success.html">
+
+            <!-- Personal Information -->
+
+            <fieldset>
+                <legend><b>Personal Information</b></legend><br>
+                <label>Name :</label>
+                <input type="text" placeholder="Atul Tripathi">
+                <br><br>
+
+                <label>Age :</label>
+                <input type="number" placeholder="19">
+                <br><br>
+
+                <label>Course :</label>
+                <input type="text" placeholder="Bsc. with CS">
+                <br><br>
+
+                <label>Address :</label>
+                <textarea name="message" rows="2" cols="30"
+                    placeholder="Akshardham East Delhi, Delhi - 110092"></textarea>
+                <br><br>
+
+                <label>Email :</label>
+                <input type="email" placeholder="atultrp@gmail.com">
+                <br><br>
+
+                <label>Password :</label>
+                <input type="password">
+                <br><br>
+
+                <label>City :</label>
+                <select name="City">
+                    <option value="Delhi">Delhi</option>
+                    <option value="UP">UP</option>
+                    <option value="UK">UK</option>
+                    <option value="UP">Rajasthan</option>
+                    <option value="UK">Punjab</option>
+                </select>
+                <br><br>
+
+                <label>Gender :</label>
+                <label>Male</label>
+                <input type="radio" name="Gender" value="Male" checked>
+                <label>Female</label>
+                <input type="radio" name="Gender" value="Female">
+                <label>Others</label>
+                <input type="radio" name="Gender" value="Others">
+            </fieldset>
+
+            <br>
+
+            <!-- Educational Information -->
+
+            <fieldset>
+                <legend><b>Educational Information</b></legend>
+                <br>
+                <label><b>Intermediate</b></label>
+                <br><br>
+                <label>Percentage :</label>
+                <input type="number">
+                <br><br>
+                <label>Passing Month & Year :</label>
+                <input type="month">
+                <br><br>
+                <br>
+                <label><b>High School</b></label>
+                <br><br>
+                <label>Percentage :</label>
+                <input type="number">
+                <br><br>
+                <label>Passing Month & Year :</label>
+                <input type="month">
+                <br><br>
+            </fieldset>
+
+            <br>
+
+            <!-- Occupation -->
+
+            <fieldset>
+                <legend><b>Occupation</b></legend><br>
+                <textarea name="occupation" cols="50" rows="5" placeholder="Currently, I'm a self taught web developer."></textarea>
+            </fieldset>
+
+            <br>
+
+            <!-- About College -->
+
+            <fieldset>
+                <legend><b>About College</b></legend>
+                <ul type="circle">
+                    <h4>Acharya Narendra Dev College Quick Updates</h4>
+                    <li>
+                        Beyond the chalk and talk teaching practices, the college always takes a step forward with their
+                        new pedagogical techniques. That includes project based learning, theatre, film making,
+                        debating, audio recording, discussion, photography etc.
+                    </li><br>
+                    <li>
+                        The college provides classrooms together with IT and Multimedia facilities. The students are
+                        provided laptops for their benefits and also to encourage the self-learning system since the
+                        Operating System is 'Open Source'. In order to facilitate the Open Source Software in education
+                        the college provides training to the new entrants.
+                    </li>
+                </ul>
+
+                <ol>
+                    <h4>Acharya Narendra Dev College Rankings, Accreditation & Affiliation</h4>
+
+                    <li>Acharya Narendra Dev college is ranked 18th among colleges in India by NIRF, 2020. </li>
+                    <li>The college has 19th rank in Science category by India Today, 2020. </li>
+                    <li>Outlook 2020, ranks Acharya Narendra Dev college 16th for the Science stream.</li>
+                    <li>The Week 2020, has ranked the college 23rd for the Science stream. </li>
+                </ol>
+            </fieldset>
+
+            <br>
+
+            <!-- Checkbox and Submit button -->
+
+            <input type="checkbox" name="confirm">
+            <label>All the above Informations are correct.</label>
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <br>
+    <hr>
+</body>
+
+</html>

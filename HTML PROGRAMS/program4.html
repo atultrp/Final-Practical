@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> college Magazine Article</title>
+</head>
+
+<body>
+    <center>
+        <h2> Article For College Magazine </h2>
+        <h3>
+            Heyy!! Creative Minds
+        </h3>
+    </center>
+    <form action="success.html">
+        <fieldset>
+            <legend>Author Details :</legend>
+            *Name: <br> <input type="text" required name="name" placeholder=" Name" /> <br />
+            Department: <br> <input type="text" name="department" placeholder="Department" /> <br />
+            Mobile Number: <br> <input type="number" max="9999999999" name="Mobile Number" placeholder="xxxxxxxxxx" />
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>About The Article:</legend>
+            Name of Article: <br> <input type="text" name="an" placeholder="What is the title of your article" /> <br />
+            Type of Article <br>
+            <input type="radio" name="type" value="technical"> Technical
+            <input type="radio" name="type" value="literary"> Literary
+            <input type="radio" name="type" value="General"> General <br>
+            <br />
+            Genre of Article <br>
+            <select name="Genre">
+                <option value="Education">Education</option>
+                <option value="Government">Government</option>
+                <option value="Fashion">Fashion</option>
+                <option value="Science">Science</option>
+                <option value="Research">Research</option>
+                <option value="Famous Personalities">Famous Personalities</option>
+                <option value="Other">Other</option>
+            </select>
+            <br>
+            Path of File: <br>
+            <p>Click on the "Choose File" button to upload a file:</p>
+
+            <form action="/action_page.php">
+                <input type="file" name="filename">
+                <h4>*Declaration </h4>
+                <input type="checkbox" name="declare" required />I declare that this article is not copied and I would
+                be liable for any copyright infringement. <br />
+        </fieldset>
+        <br>
+        <center>
+            <input type="submit" />
+            <input type="reset" />
+        </center>
+
+    </form>
+</body>
+
+</html>

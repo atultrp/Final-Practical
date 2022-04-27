@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+
+<style>
+    body {
+        background-color: rgb(32, 32, 32);
+        color: white;
+    }
+</style>
+
+<body>
+    <font face="courier">
+        <header>
+            <center>
+                <img src="assets/store.png" alt="andc-logo" width="100px">
+                <h1>Welcome to Star Store</h1>
+            </center>
+        </header>
+        <main>
+
+            <form action="success.html">
+
+                <!-- Feedback by customer -->
+
+                <fieldset>
+                    <legend><b>Feedback by customer</b></legend><br>
+                    <label>Name :</label>
+                    <input type="text" placeholder="Atul Tripathi">
+                    <br><br>
+
+                    <label>Mobile Number :</label>
+                    <input type="number" placeholder="9191924922">
+                    <br><br> 
+
+                    <label>Favourite Item :</label>
+                    <select name="favItem">
+                        <option value="Chips">Chips</option>
+                        <option value="Chocolate">Chocolate</option>
+                        <option value="Dairy Products">Dairy Products</option>
+                        <option value="Muffins">Muffins</option>
+                    </select>
+                    <br><br>
+
+                    <label>
+                        Preffered Days :
+                        <label>Mon</label>
+                        <input type="checkbox">
+                        <label>Tue</label>
+                        <input type="checkbox">
+                        <label>Wed</label>
+                        <input type="checkbox">
+                        <label>Thurs</label>
+                        <input type="checkbox">
+                        <label>Fri</label>
+                        <input type="checkbox">
+                        <label>Sat</label>
+                        <input type="checkbox">
+                    </label>
+                    <p>
+                        *Store is closed on Sunday!
+                    </p>
+                </fieldset>
+
+                <br>
+
+                <!-- Suggestions -->
+
+                <fieldset>
+                    <legend><b>Any Suggestions</b></legend><br>
+                    <textarea name="suggestions" cols="50" rows="4"
+                        placeholder="Please write any suggestion to provide better service!"></textarea>
+                </fieldset>
+
+                <br>
+
+                <!-- Reset and Submit button -->
+                <center>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </center>
+            </form>
+        </main>
+        <br>
+        <hr>
+    </font>
+</body>
+
+</html>

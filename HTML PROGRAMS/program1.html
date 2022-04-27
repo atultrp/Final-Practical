@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program 1 - Form</title>
+</head>
+
+<body>
+    <h1>Personal Information</h1>
+    <form action="success.html">
+        <label for="name">Write your Name : </label>
+        <input type="text" id="name">
+
+        <br><br>
+
+        <label for="emailId">Enter your email ID : </label>
+        <input type="email" id="emailId">
+
+        <br><br>
+
+        <label for="password">Enter your password : </label>
+        <input type="password" id="password">
+
+        <br><br>
+
+        <label for="accountType">
+            Account Type : 
+            <input type="radio" name="accountType" id="individual" value="individual">
+            <label for="individual">Individual</label>
+            <input type="radio" name="accountType" id="business" value="business">
+            <label for="business">Business</label>
+        </label>
+
+        <br><br>
+
+        <input type="checkbox" id="confirmation" />
+        <label for="confirmation">I'm sure, above information is correct.</label>
+
+        <br><br>
+        
+        <button type="submit">Submit</button>        
+    </form>
+</body>
+
+</html>
